@@ -1,0 +1,89 @@
+﻿@model BlogCore.Models.ViewModel.ArticleVM;
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container pt-2">
+    <h3>Crear nueva categoria</h3>
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Article.Id" />
+        <input type="hidden" asp-for="Article.UrlImage" />
+        <div class="row px-2 mx-2 border">
+            <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+            <div class="col-10 offset-1 mt-4">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Article.Name"> </label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Article.Name" autofocus class="form-control" />
+                        <span asp-validation-for="Article.Name" class="text-danger"> </span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Article.Description"> </label>
+                    </div>
+                    <div class="col-8">
+                        <textarea asp-for="Article.Description" autofocus class="form-control" style="height:300px;"></textarea>
+                        <span asp-validation-for="Article.Description" class="text-danger"> </span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Article.CreateDate"> </label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Article.CreateDate" autofocus class="form-control" />
+                        <span asp-validation-for="Article.CreateDate" class="text-danger"> </span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Article.CategoryId"> </label>
+                    </div>
+                    <div class="col-8">
+                        @Html.DropDownListFor(m => m.Article.CategoryId, Model.ListCategory, "--Selecione una categoria", new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Article.UrlImage"> </label>
+                    </div>
+                    <div class="col-8">
+                        <div class="col-12 pt-1">
+                            <img src="@Model.Article.UrlImage" style="border-radius:5px;border:1px solid #bbb9b9;height:300px;width:500px" />
+                        </div>
+                        <input type="file" name="files" id="subidaArchivos" class="form-control" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-4">
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary form-control">Actualizar datos </button>
+                            </div>
+                            <div class="col">
+                                <a asp-action="Index" class="btn btn-success form-control">Rgresar al inicio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </form>
+</div>
+@section Scripts{
+    <script src="https://cdn.tiny.cloud/1/fkkyae40m2x99xute0yagpg2hc8pntbh38j2lhea1z0y125x/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar:'file edit format'
+        });
+    </script>
+}
+
+

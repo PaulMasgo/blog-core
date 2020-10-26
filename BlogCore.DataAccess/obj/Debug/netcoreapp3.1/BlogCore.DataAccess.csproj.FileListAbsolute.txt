@@ -1,0 +1,12 @@
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\bin\Debug\netcoreapp3.1\BlogCore.DataAccess.deps.json
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\bin\Debug\netcoreapp3.1\BlogCore.DataAccess.dll
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\bin\Debug\netcoreapp3.1\BlogCore.DataAccess.pdb
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\bin\Debug\netcoreapp3.1\BlogCore.Models.dll
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\bin\Debug\netcoreapp3.1\BlogCore.Models.pdb
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\obj\Debug\netcoreapp3.1\BlogCore.DataAccess.csprojAssemblyReference.cache
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\obj\Debug\netcoreapp3.1\BlogCore.DataAccess.AssemblyInfoInputs.cache
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\obj\Debug\netcoreapp3.1\BlogCore.DataAccess.AssemblyInfo.cs
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\obj\Debug\netcoreapp3.1\BlogCore.DataAccess.csproj.CoreCompileInputs.cache
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\obj\Debug\netcoreapp3.1\BlogCore.DataAccess.csproj.CopyComplete
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\obj\Debug\netcoreapp3.1\BlogCore.DataAccess.dll
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.DataAccess\obj\Debug\netcoreapp3.1\BlogCore.DataAccess.pdb

@@ -1,0 +1,9 @@
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\bin\Debug\netcoreapp3.1\BlogCore.Utilities.deps.json
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\bin\Debug\netcoreapp3.1\BlogCore.Utilities.dll
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\bin\Debug\netcoreapp3.1\BlogCore.Utilities.pdb
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\obj\Debug\netcoreapp3.1\BlogCore.Utilities.csprojAssemblyReference.cache
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\obj\Debug\netcoreapp3.1\BlogCore.Utilities.AssemblyInfoInputs.cache
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\obj\Debug\netcoreapp3.1\BlogCore.Utilities.AssemblyInfo.cs
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\obj\Debug\netcoreapp3.1\BlogCore.Utilities.dll
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\obj\Debug\netcoreapp3.1\BlogCore.Utilities.pdb
+E:\Proyectos C#\Mvc\BlogCore\BlogCore.Utilities\obj\Debug\netcoreapp3.1\BlogCore.Utilities.csproj.CoreCompileInputs.cache
